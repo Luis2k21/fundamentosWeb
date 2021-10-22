@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contato</title>
+</head>
+<body>
+
+    <ul>
+        <li class="fontSizeMenu"><a href="../pg01css/pagina1.html">Home</a></li>
+    </ul>
+    
+        <div class="container">
+            <div class="mg-50 colorLabel">
+                <form>
+                    <label for="nome" class="fontSizeMenu">Nome:</label> <br>
+                    <input type="text" id="nome" onkeyup="validaNome()">
+                    <div id="txtNome"></div>
+                    <br>
+                    <label for="email" class="fontSizeMenu">Email:</label> <br>
+                    <input type="email" id="email" onkeyup="validaEmail()"> 
+                    <div id="txtEmail"></div>
+                    <br>
+                    <label for="assunto" class="fontSizeMenu">Endereço:</label> <br>
+                    <textarea name="assunto" id="assunto" cols="60" rows="10" onkeyup="validaAssunto()"></textarea>
+                    <div id="txtAssunto"></div>
+                    <br>
+                    <button onclick="enviar()">Enviar</button>
+                </form>
+            </div>
+            
+            <iframe class="imgBorder" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19000.692448103644!2d-2.344070356196979!3d53.466913167355656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bae0d9b905243%3A0xd5ce06bdd0c21068!2sTrafford%20Park%2C%20Stretford%2C%20Manchester%2C%20Reino%20Unido!5e0!3m2!1spt-BR!2sbr!4v1634755204713!5m2!1spt-BR!2sbr" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="mapa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+        <script src="../js/script.js"></script>
+</body>
+</html>

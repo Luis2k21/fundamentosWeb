@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/*Pagina Home*/
+
+body{
+    background-image: linear-gradient(to right, #6E1905, #780C06, #BD003E);
+}
+
+p{
+    text-align: center;
+    color: white;
+    margin-right: 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgBorder{
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.fontSizeMenu{
+    font-size: 20px;
+}
+
+.fontSizeMenu a{
+    text-decoration: none;
+    color: white;
+}
+
+.fontSizeMenu a:hover{
+    color: #BA5741;
+}
+
+.mg-10{
+    margin: 10px;
+}
+
+.mg-50{
+    margin: 50px;
+}
+
+.wd-logoImg{
+    width: 50px;
+}
+
+/*PAGINA 2*/
+
+.colorLabel{
+    color: white;
+}
